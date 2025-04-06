@@ -403,7 +403,6 @@ nav .logo {
     word-spacing: -1.75px;
     color: #000;
     display: flex;
-    align-items: left;
     position: absolute;
     /* Changed from fixed */
     top: 90%;

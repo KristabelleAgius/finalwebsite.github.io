@@ -449,6 +449,7 @@ nav .logo {
     z-index: 10;
     left: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    top: -15px;
 }
 
 .form-textarea {
@@ -467,6 +468,7 @@ nav .logo {
     left: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     resize: vertical;
+    top: -5px;
 }
 
 .submit-button {

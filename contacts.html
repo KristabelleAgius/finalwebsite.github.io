@@ -40,19 +40,21 @@
             <div class="text">
                 <h1>LET'S CONNECT</h1>
 
-                <form method="post" action="mailto:kristabelleagius1@gmail.com">
-                    <input type="submit" value="Send Email" />
+                <form onsubmit="return submitForm()">
                     <h2>Full Name</h2>
-                    <input type="text" placeholder="Enter Your Full Name" class="form-input">
+                    <input type="text" id="name" name="name" placeholder="Enter Your Full Name" class="form-input"
+                        required>
 
                     <h2>Email</h2>
-                    <input type="email" placeholder="Enter Your Email" class="form-input">
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" class="form-input"
+                        required>
 
                     <h2>Message</h2>
-                    <textarea placeholder="What's On Your Mind?" class="form-textarea"></textarea>
+                    <textarea id="message" name="message" placeholder="What's On Your Mind?" class="form-textarea"
+                        required></textarea>
 
+                    <button type="submit" class="submit-button">Submit</button>
                 </form>
-
             </div>
         </div>
     </div>
@@ -63,6 +65,9 @@
     </div>
 
     </div>
+
+    <script source="java.script"></script>
+
 </body>
 
 </html>

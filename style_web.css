@@ -469,15 +469,15 @@ nav .logo {
     font-size: 18px;
     color: #343333;
     cursor: pointer;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 10px;
+    display: block;
+    margin: 20px auto 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, transform 0.2s;
+    width: 120px;
+    text-align: center;
 }
 
 .submit-button:hover {
     background-color: rgba(240, 104, 92, 0.2);
-    transform: translateX(-50%) scale(1.05);
+    transform: scale(1.05);
 }

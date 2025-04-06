@@ -319,7 +319,7 @@ nav .logo {
     padding: 30px;
     margin: 30px auto;
     max-width: 600px;
-    min-height: 420px;
+    min-height: 600px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     text-align: justify;
     word-spacing: -1.75px;
@@ -327,7 +327,7 @@ nav .logo {
     display: flex;
     align-items: center;
     position: fixed;
-    top: 37%;
+    top: 45%;
     /* Center vertically */
     left: 50%;
     /* Center horizontally */
@@ -354,15 +354,18 @@ nav .logo {
     font-family: 'NeueHaasDisplayBold', Helvetica, Arial, sans-serif;
     font-size: 25px;
     position: relative;
-    z-index: 10;
+    text-align: center;
+    top: -20px;
 }
 
 .text h2 {
-    margin: 0 0 10px;
+    margin: 0 0 20px;
     font-family: 'NeueHaasDisplayMedium', Helvetica, Arial, sans-serif;
     font-size: 25px;
     position: relative;
     z-index: 10;
+    top: -15px;
+    left: 5px;
 }
 
 .text p {
@@ -372,6 +375,8 @@ nav .logo {
     color: #343333;
     position: relative;
     z-index: 10;
+    top: -19px;
+    left: 5px;
 }
 
 
@@ -382,120 +387,10 @@ nav .logo {
     color: #343333;
     position: relative;
     z-index: 10;
-    left: 50%;
-    top: 10px;
+    left: 49.5%;
+    top: 4px;
 }
 
-
-
-/* ===============================
-   Contact page  - small white box and text - full name
-   =============================== */
-.smallwhite-box-container {
-    padding: 20px;
-}
-
-.smallwhite-box {
-    background: rgba(255, 255, 255, 0.684);
-    backdrop-filter: blur(5px);
-    border-radius: 25px;
-    padding: 20px;
-    margin: 15px auto;
-    max-width: 1000px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    word-spacing: -1.75px;
-    color: #000;
-    display: flex;
-    align-items: left;
-    position: absolute;
-    /* Changed from fixed */
-    top: 18%;
-    /* Center vertically */
-    left: -1%;
-    /* Center horizontally */
-    transform: none;
-    /* Adjust position to true center */
-    width: 100%;
-    /* Responsive width with some margin */
-    max-width: 1000px;
-    z-index: 5;
-    overflow: hidden;
-}
-
-
-
-/* ===============================
-   Contact page  - small white box and text - full name
-   =============================== */
-.smallwhite-box2-container {
-    padding: 20px;
-}
-
-.smallwhite-box2 {
-    background: rgba(255, 255, 255, 0.684);
-    backdrop-filter: blur(5px);
-    border-radius: 25px;
-    padding: 20px;
-    margin: 15px auto;
-    max-width: 1000px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    word-spacing: -1.75px;
-    color: #000;
-    display: flex;
-    align-items: left;
-    position: absolute;
-    /* Changed from fixed */
-    top: 43%;
-    /* Center vertically */
-    left: -1%;
-    /* Center horizontally */
-    transform: none;
-    /* Adjust position to true center */
-    width: 100%;
-    /* Responsive width with some margin */
-    max-width: 1000px;
-    z-index: 5;
-    overflow: hidden;
-}
-
-
-
-/* ===============================
-   Contact page  - small white box and text - full name
-   =============================== */
-.smallwhite-box3-container {
-    padding: 20px;
-}
-
-.smallwhite-box3 {
-    background: rgba(255, 255, 255, 0.684);
-    backdrop-filter: blur(5px);
-    border-radius: 25px;
-    padding: 20px;
-    margin: 15px auto;
-    max-width: 1000px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    word-spacing: -1.75px;
-    color: #000;
-    display: flex;
-    align-items: left;
-    position: absolute;
-    /* Changed from fixed */
-    top: 68%;
-    /* Center vertically */
-    left: -1%;
-    /* Center horizontally */
-    transform: none;
-    /* Adjust position to true center */
-    width: 100%;
-    /* Responsive width with some margin */
-    max-width: 1000px;
-    z-index: 5;
-    overflow: hidden;
-}
 
 
 
@@ -522,10 +417,9 @@ nav .logo {
     align-items: left;
     position: absolute;
     /* Changed from fixed */
-    top: 88%;
+    top: 90%;
     /* Center vertically */
     left: 45%;
-    /* Center horizontally */
     transform: none;
     /* Adjust position to true center */
     width: 15%;
@@ -533,4 +427,66 @@ nav .logo {
     max-width: 1000px;
     z-index: 5;
     overflow: hidden;
+}
+
+
+
+
+
+
+/* Input fields styling */
+.form-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+    border: none;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    font-family: 'NeueHaasDisplayMedium', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    position: relative;
+    z-index: 10;
+    left: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+    border: none;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    font-family: 'NeueHaasDisplayMedium', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    min-height: 120px;
+    position: relative;
+    z-index: 10;
+    left: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    resize: vertical;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 15px;
+    font-family: 'NeueHaasDisplayMedium', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #343333;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background-color: rgba(240, 104, 92, 0.2);
+    transform: translateX(-50%) scale(1.05);
 }

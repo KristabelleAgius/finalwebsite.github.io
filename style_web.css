@@ -158,7 +158,7 @@ nav .links,
 #circle1 {
     width: 130%;
     height: 130%;
-    background-color: #f88b81;
+    background-color: #f0685c;
     top: -50%;
     left: -60%;
     animation-delay: -1s;
@@ -167,7 +167,7 @@ nav .links,
 #circle2 {
     width: 150%;
     height: 150%;
-    background-color: #99f1ec;
+    background-color: #46b4ad;
     top: 300px;
     left: 10%;
     animation-delay: -2.5s;
@@ -185,7 +185,7 @@ nav .links,
 #circle4 {
     width: 100%;
     height: 100%;
-    background-color: #466dbd;
+    background-color: #244c9d;
     top: 50%;
     left: -25%;
     animation-delay: -4.5s;
@@ -194,7 +194,7 @@ nav .links,
 #circle5 {
     width: 50%;
     height: 50%;
-    background-color: #e2ecff;
+    background-color: #27265e;
     top: 50%;
     left: -25%;
     animation-delay: -4.5s;
@@ -203,7 +203,7 @@ nav .links,
 #circle6 {
     width: 50%;
     height: 50%;
-    background-color: #e2ecff;
+    background-color: #182d54;
     top: 10%;
     left: 60%;
     animation-delay: -4.5s;
@@ -368,19 +368,8 @@ nav .logo {
     left: 5px;
 }
 
+
 .text p {
-    margin: 0 0 15px;
-    font-family: 'NeueHaasDisplayMedium', Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    color: #343333;
-    position: relative;
-    z-index: 10;
-    top: -19px;
-    left: 5px;
-}
-
-
-.text p1 {
     margin: 0 0 5px;
     font-family: 'NeueHaasDisplayMedium', Helvetica, Arial, sans-serif;
     font-size: 18px;

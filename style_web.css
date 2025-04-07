@@ -299,8 +299,207 @@ nav .logo {
 
 
 
+
 /* ===============================
-   6. Contact page 
+   3. Artist page 
+   =============================== */
+
+
+
+.artistbox-container {
+    padding: 20px;
+}
+
+.artistbox1 {
+    background: rgba(255, 255, 255, 0.684);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 250px;
+    min-height: 350px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    word-spacing: -1.75px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 35%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust position to true center */
+    width: calc(100% - 200px);
+    z-index: 5;
+    overflow: hidden;
+}
+
+.artistbox2 {
+    background: rgba(255, 255, 255, 0.684);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 250px;
+    min-height: 350px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    word-spacing: -1.75px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 35%;
+    /* Center vertically */
+    left: 25%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust position to true center */
+    width: calc(100% - 200px);
+    z-index: 5;
+    overflow: hidden;
+}
+
+.artistbox3 {
+    background: rgba(255, 255, 255, 0.684);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 250px;
+    min-height: 350px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    word-spacing: -1.75px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 35%;
+    /* Center vertically */
+    left: 75%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust position to true center */
+    width: calc(100% - 200px);
+    z-index: 5;
+    overflow: hidden;
+}
+
+.artistbox4 {
+    background: rgba(255, 255, 255, 0.684);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 250px;
+    min-height: 350px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    word-spacing: -1.75px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 85%;
+    /* Center vertically */
+    left: 25%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust position to true center */
+    width: calc(100% - 200px);
+    z-index: 5;
+    overflow: hidden;
+}
+
+
+.artistbox5 {
+    background: rgba(255, 255, 255, 0.684);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 250px;
+    min-height: 350px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    word-spacing: -1.75px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 85%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust position to true center */
+    width: calc(100% - 200px);
+    z-index: 5;
+    overflow: hidden;
+}
+
+
+.artistbox6 {
+    background: rgba(255, 255, 255, 0.684);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 250px;
+    min-height: 350px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    word-spacing: -1.75px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 85%;
+    /* Center vertically */
+    left: 75%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    /* Adjust position to true center */
+    width: calc(100% - 200px);
+    z-index: 5;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============================
+   5. Contact page 
    =============================== */
 
 

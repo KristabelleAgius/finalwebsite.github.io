@@ -304,172 +304,78 @@ nav .logo {
    3. Artist page 
    =============================== */
 
+/* Kristabelle Agius */
 
-
-.artistbox-container {
-    padding: 20px;
-}
-
-.artistbox1 {
-    background: rgba(255, 255, 255, 0.684);
-    backdrop-filter: blur(5px);
-    border-radius: 25px;
-    padding: 30px;
-    margin: 30px auto;
-    max-width: 250px;
-    min-height: 350px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    word-spacing: -1.75px;
-    color: #000;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 35%;
-    /* Center vertically */
-    left: 50%;
-    /* Center horizontally */
-    transform: translate(-50%, -50%);
-    /* Adjust position to true center */
-    width: calc(100% - 200px);
-    z-index: 5;
+.portrait-container {
+    position: relative;
+    width: 250px;
+    height: 350px;
     overflow: hidden;
-}
-
-.artistbox2 {
-    background: rgba(255, 255, 255, 0.684);
-    backdrop-filter: blur(5px);
-    border-radius: 25px;
-    padding: 30px;
-    margin: 30px auto;
-    max-width: 250px;
-    min-height: 350px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    word-spacing: -1.75px;
-    color: #000;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 35%;
-    /* Center vertically */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
     left: 25%;
-    /* Center horizontally */
-    transform: translate(-50%, -50%);
-    /* Adjust position to true center */
-    width: calc(100% - 200px);
-    z-index: 5;
-    overflow: hidden;
+    top: 150px;
+
 }
 
-.artistbox3 {
-    background: rgba(255, 255, 255, 0.684);
-    backdrop-filter: blur(5px);
-    border-radius: 25px;
-    padding: 30px;
-    margin: 30px auto;
-    max-width: 250px;
-    min-height: 350px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    word-spacing: -1.75px;
-    color: #000;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 35%;
-    /* Center vertically */
-    left: 75%;
-    /* Center horizontally */
-    transform: translate(-50%, -50%);
-    /* Adjust position to true center */
-    width: calc(100% - 200px);
-    z-index: 5;
-    overflow: hidden;
+.portrait-container:hover {
+    transform: scale(1.02);
 }
 
-.artistbox4 {
-    background: rgba(255, 255, 255, 0.684);
-    backdrop-filter: blur(5px);
-    border-radius: 25px;
-    padding: 30px;
-    margin: 30px auto;
-    max-width: 250px;
-    min-height: 350px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    word-spacing: -1.75px;
-    color: #000;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 85%;
-    /* Center vertically */
-    left: 25%;
-    /* Center horizontally */
-    transform: translate(-50%, -50%);
-    /* Adjust position to true center */
-    width: calc(100% - 200px);
-    z-index: 5;
-    overflow: hidden;
+.portrait {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.4s ease;
 }
 
-
-.artistbox5 {
-    background: rgba(255, 255, 255, 0.684);
-    backdrop-filter: blur(5px);
-    border-radius: 25px;
-    padding: 30px;
-    margin: 30px auto;
-    max-width: 250px;
-    min-height: 350px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    word-spacing: -1.75px;
-    color: #000;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 85%;
-    /* Center vertically */
-    left: 50%;
-    /* Center horizontally */
-    transform: translate(-50%, -50%);
-    /* Adjust position to true center */
-    width: calc(100% - 200px);
-    z-index: 5;
-    overflow: hidden;
+.portrait-container:hover .portrait {
+    filter: brightness(0.7);
 }
 
-
-.artistbox6 {
-    background: rgba(255, 255, 255, 0.684);
-    backdrop-filter: blur(5px);
-    border-radius: 25px;
-    padding: 30px;
-    margin: 30px auto;
-    max-width: 250px;
-    min-height: 350px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-    word-spacing: -1.75px;
-    color: #000;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 85%;
-    /* Center vertically */
-    left: 75%;
-    /* Center horizontally */
-    transform: translate(-50%, -50%);
-    /* Adjust position to true center */
-    width: calc(100% - 200px);
-    z-index: 5;
-    overflow: hidden;
+.artist-info {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    color: white;
+    padding: 160px 20px 20px;
+    transition: bottom 0.4s ease;
+    justify-content: flex-end;
 }
 
+.portrait-container:hover .artist-info {
+    bottom: 0;
+}
 
+.artist-name {
+    font-size: 24px;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
 
+.artist-bio {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0 0 10px;
+}
+
+.artist-website {
+    color: #e0e0e0;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 2px;
+    transition: color 0.3s ease;
+}
+
+.artist-website:hover {
+    color: #ffffff;
+}
 
 
 
